@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OTT Platform</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html"><img src="netflix.jpeg" alt="OTT Platform Logo"></a>
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search movies, series..." id="search-input">
+      </div>
+      <div class="auth-buttons">
+        <button class="login-btn">Login</button>
+        <button class="signup-btn">Sign Up</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section class="trending">
+      <h2>Trending Now</h2>
+      <div class="content-grid" id="trending-content">
+        
+      </div>
+    </section>
+
+    <section class="recommended">
+      <h2>Recommended For You</h2>
+      <div class="content-grid" id="recommended-content"></div>
+    </section>
+  </main>
+
+  <!-- Content Details Modal -->
+  <div class="modal" id="content-modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="modal-details">
+        <!-- Content details will be inserted here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 OTT Platform. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
